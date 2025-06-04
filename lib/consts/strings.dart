@@ -1,3 +1,5 @@
+import 'package:rrr/views/category_screen/items_details.dart';
+
 const appname = "RRR";
 const appversion = "Version 1.0.0";
 const credits = "@Darshan Kanani";
@@ -41,3 +43,6 @@ sports="Sports",
 jewelery="Jewelery",
 cellphone="CellPhone & Tab",
 furniture="Furniture";
+
+//item details Strings
+const video="Video",reviews="Reviews",sellerPolicy="Seller Policy",returnPolicy="Return Policy",supportPolicy="Support Policy",productYouMayLike="Product you may also like";

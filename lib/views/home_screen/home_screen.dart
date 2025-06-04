@@ -131,7 +131,7 @@ Expanded(
                   ],
                   ).box.white.margin(EdgeInsets.symmetric(horizontal: 4)).padding(EdgeInsets.all(8)).roundedSM.make()).toList(),
                 ),
-              )
+              ),
             ],
           ),
         ),

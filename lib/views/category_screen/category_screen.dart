@@ -1,5 +1,7 @@
+import 'package:get/get.dart';
 import 'package:rrr/consts/consts.dart';
 import 'package:rrr/consts/lists.dart';
+import 'package:rrr/views/category_screen/categories_details.dart';
 
 import '../../widgets_common/bg_widget.dart';
 class CategoryScreen extends StatelessWidget {
@@ -23,7 +25,9 @@ itemCount: 9,
               10.heightBox,
               categoriesList[index].text.color(darkFontGrey).align(TextAlign.center).make(),
             ],
-          ).box.white.rounded.clip(Clip.antiAlias).outerShadowSm.make();
+          ).box.white.rounded.clip(Clip.antiAlias).outerShadowSm.make().onTap((){
+            Get.to(CategoriesDetails(title: categoriesList[index]));
+          });
         }),
       ),
     ));
