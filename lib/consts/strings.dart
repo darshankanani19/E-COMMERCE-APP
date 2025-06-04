@@ -12,6 +12,7 @@ const name = "Name";
 const nameHint = "darshan kanani";
 const forgetpass ="Forget Password";
 const login = "Log in";
+const logout = "Log out";
 const signup = "Sign Up";
 const creatNewAccount = "or, create a new account";
 const loginWith = "Log in with";
@@ -46,3 +47,9 @@ furniture="Furniture";
 
 //item details Strings
 const video="Video",reviews="Reviews",sellerPolicy="Seller Policy",returnPolicy="Return Policy",supportPolicy="Support Policy",productYouMayLike="Product you may also like";
+
+//profile page Strings
+const wishlist="My Wishlist",
+      order="My Orders",
+messages="Messages"
+;

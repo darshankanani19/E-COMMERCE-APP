@@ -11,3 +11,6 @@ const featuredTitle2=[boysGlasses,mobilePhone,tShirt];
 const categoriesList=[womenClothing,menClothingFashion,compAccess,automobile,kidToys,sports,jewelery,cellphone,furniture];
 const categoriesImages=[imgFc8,imgFc1,imgFc2,imgFc3,imgFc4,imgFc5,imgFc7,imgFc6,imgFc9];
 const itemDetailButtonsList=[video,reviews,sellerPolicy,returnPolicy,supportPolicy];
+
+const profileButtonsList=[wishlist,order,messages];
+const profileButtonIcons=[icOrder,icOrder,icMessages];
